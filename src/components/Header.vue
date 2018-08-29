@@ -22,7 +22,7 @@ export default class Header extends Vue {
         this.testAjax();
     }
     async testAjax() {
-        const res = await axios.get('/activity');
+        const res:any = await axios.get('/activity');
     }
 }
 </script>
