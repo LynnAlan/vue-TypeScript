@@ -1,6 +1,6 @@
 <template>
     <header class="main-header">
-        <div>
+        <!-- <div>
             扫一下
         </div>
         <div>
@@ -8,7 +8,7 @@
         </div>
         <div>
             最新消息
-        </div>
+        </div> -->
     </header>
 </template>
 <script lang="ts">

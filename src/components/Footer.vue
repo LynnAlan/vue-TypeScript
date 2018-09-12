@@ -2,16 +2,16 @@
     <footer class="main-footer">
         <div class="main-footer-content">
             <div>
-                首页
+                最新
             </div>
             <div>
-                分类
+                分享
             </div>
             <div>
-                购物车
+                问答
             </div>
             <div>
-                用户
+                招聘
             </div>
         </div>
     </footer>
