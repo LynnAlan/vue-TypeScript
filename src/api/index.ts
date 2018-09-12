@@ -20,4 +20,11 @@ const post = (url: string, params?: object) => axios.post(url, params);
  * @param limit 默认20
  */
 export const getTopics = (tab = "all", page = 1, limit = 20) =>
-  get("topics", { tab, page, limit }).then(data => data.data.data);
+    get("topics", { tab, page, limit }).then(data => data.data.data);
+
+/**
+ * 获取话题详情
+ * @param data
+ */
+export const getTopicDetails = (topic: string) =>
+    get(`topic/${topic}`).then(data => data.data.data);

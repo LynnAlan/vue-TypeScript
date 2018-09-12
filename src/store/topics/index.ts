@@ -6,7 +6,7 @@ import {
   ChangeCollect
 } from "@/store/interface/topics";
 import { ActionTree, MutationTree, GetterTree } from "vuex";
-import { getTopics } from "@/api";
+import { getTopics,getTopicDetails } from "@/api";
 import * as type from "@/store/topics/type";
 
 let state: TopicsState = {
