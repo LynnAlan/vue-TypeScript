@@ -19,7 +19,7 @@ export default new Router({
             component: () => import('./views/About.vue')
         },
         {
-            path: '/about',
+            path: '/topic/:id',
             name: 'about',
             component: () => import('./views/About.vue')
         }
